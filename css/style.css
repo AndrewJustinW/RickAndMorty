@@ -1,0 +1,224 @@
+/* Homepage */
+body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+}
+.logo {
+        display: flex;
+        justify-content: center;
+
+}
+/* Home page heading formatted */
+.home_header {
+        width: 100vw;
+        height: 90px;
+        border: solid;
+        text-align: center;
+        background-color: rgb(30, 32, 34);
+
+}
+/* Setting First video to the center */
+iframe {
+        margin: auto;
+        display: block;
+/* Formatting first page */
+}
+
+.homepage {
+        border: 0px;
+        padding-top: 40px;
+        background-color: black;
+        background-image: url("../images/RMBackground.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: rgb(100, 37, 119);
+}
+/* Formatting synopsis and font*/
+.synopsis_border {
+        border: solid 3px black;
+        background-color: rgb(30, 32, 34);
+        height: 288px;
+        width: 50%;
+        font-size: 23px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-left: 25%;
+
+}
+/* formatting the Background of Meet the family */
+.mtfheadding {
+        border: solid 3px black;
+        background-color: rgb(30, 32, 34);
+        height: 100px;
+        width: 100%;
+
+
+}
+/* formatting whats inside Meet the family */
+.MTF {
+        text-align: center;
+}
+/* Character Formats */
+.Rick {
+
+        padding-top: 100px;
+        display: flex;
+
+
+}
+
+.Morty {
+        padding-top: 20px;
+        display: flex;
+}
+
+.Summer {
+        padding-top: 20px;
+        display: flex;
+}
+
+.Beth {
+        padding-top: 20px;
+        display: flex;
+}
+
+.Jerry {
+        padding-top: 20px;
+        display: flex;
+        padding-bottom: 200px;
+
+}
+/* Formatting the different characters */
+.Fam {
+
+        Border: solid 1px black;
+        padding: 2px;
+        height: 500px;
+        width: 725px;
+        background-color: rgb(30, 32, 34);
+        font-size: 16px;
+
+}
+/* Beginning of modal formatting and styling */
+.modalDialog {
+        position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+
+/* About Page Start */
+
+
+/* Header format */
+.about_header {
+        width: 100vw;
+        height: 90px;
+        border: solid;
+        text-align: center;
+        background-color: rgb(60, 147, 197);
+}
+/* Formatting about page body & styling*/
+.aboutpage {
+        background-image: url("../images/wp1822726.jpg");
+        background-size: cover;
+        border: 0px;
+        padding-top: 40px;
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: rgb(0, 0, 0)
+}
+/* Formatting Summary & stylng and font*/
+.summary {
+        border: solid 3px black;
+        background-color: rgb(60, 147, 197);
+        height: 330px;
+        width: 60%;
+        font-size: 23px;
+        text-align: center;
+        margin-left: 20%;
+        font-family: 'Courier New', Courier, monospace;
+
+        
+}
+/* Allowing the table to be flexed */
+.movetable{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+        margin-top: 80px;
+}
+/* formatting table */
+table {
+        border: rgb(207, 196, 196);
+        border-radius: 20px;
+        width: 600px;
+        height: 450px;
+        background: rgb(0, 0, 0);
+        font-size: 20px;
+        
+       
+}
+/* formatting table data */
+td {
+        color: rgb(0, 0, 0);
+        background: rgb(60, 147, 197);
+        margin: 100px;
+        border-top-right-radius: 20px;
+        padding: 30px;
+}
+/* formatting table data on the left to be bold and higher font size */
+.td1{
+        font-weight: bold;
+        font-size: 29px;
+
+}
+/* Animations on the table */
+.tdanimation:hover {
+                animation: shaker 1.0s;
+              }
+              
+              @keyframes shaker {
+                0%{
+                  transform: rotate(0deg);
+              }
+              50%{
+                transform: rotate(45deg);      
+              }
+              100%{
+                  transform: rotate(-60deg);      
+              }
+              
+
+
+
+}
